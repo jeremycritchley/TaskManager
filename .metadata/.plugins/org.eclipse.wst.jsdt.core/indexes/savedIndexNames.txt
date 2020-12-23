@@ -1,0 +1,6 @@
+INDEX VERSION 1.4+/Users/jeremycritchley/Documents/RevatureTraining/Projects/Project-2-TaskManager/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+2169813345.index
+3760338706.index
+1220653033.index
+4092825604.index
+4140879539.index
