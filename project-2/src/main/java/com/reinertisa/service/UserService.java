@@ -27,4 +27,5 @@ public interface UserService {
 	
 	
 	public boolean createRoleTable(UserRole role);
+	public boolean registerUser(User user);
 }

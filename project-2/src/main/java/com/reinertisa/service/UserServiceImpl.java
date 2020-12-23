@@ -34,7 +34,14 @@ public class UserServiceImpl implements UserService {
 	public UserServiceImpl() {
 		logger.trace("Injection using Autowired Hero Repository in UserServiceImpl");
 	}
-
+	
+	@Override
+	public boolean registerUser(User user) {
+		userRepository.save(user);
+		return user.getUserId() != 0;
+		
+	}
+	
 	@Override
 	public String signup(HttpServletRequest req) {
 

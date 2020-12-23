@@ -30,6 +30,9 @@ public class MainDriver {
 		TaskService taskService = appContext.getBean("taskService", TaskService.class);
 		
 		setDatabase(userService, taskService);
+		
+		userService.registerUser(new User("manager", "password", "Demo", "User", "user@demo.com",LocalDateTime.now(), 
+				 new UserRole(4, "Software Manager")));
 
 		
 		System.out.println("Task created Successfully");
